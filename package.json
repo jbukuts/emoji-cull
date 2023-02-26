@@ -1,0 +1,24 @@
+{
+  "name": "font-parsing",
+  "version": "1.0.0",
+  "description": "Parsing emoji fonts in order to create a smaller subset",
+  "main": "index.ts",
+  "scripts": {
+    "index": "npx tsc --downlevelIteration index.ts && node index.js",
+    "simple": "node simple.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fonts"
+  ],
+  "author": "jbukuts",
+  "license": "ISC",
+  "dependencies": {
+    "fontkit": "^2.0.2",
+    "node": "^19.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "typescript": "^4.9.5"
+  }
+}
