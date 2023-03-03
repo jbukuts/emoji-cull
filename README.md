@@ -1,4 +1,4 @@
-# emoji-cull ✂
+# emoji-cull (WIP) ✂
 Project to parse and cull unneeded glyphs from an emoji font file
 
 ## What is this? 🤔
